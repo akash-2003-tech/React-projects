@@ -1,0 +1,23 @@
+/* Center everything on the viewport using Flexbox */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the main title heading */
+.app-container h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+/* Style the helper paragraph text */
+.app-container p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
