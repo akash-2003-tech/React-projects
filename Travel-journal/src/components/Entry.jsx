@@ -30,7 +30,7 @@ export default function Entry(props) {
 
         <h2 className="entry-list">{props.element.title}</h2>
 
-        <p className="trip-date">{props.element.date}</p>
+        <p className="trip-date">{props.element.dates}</p>
 
         <p className="entry-text">
           {props.element.text}

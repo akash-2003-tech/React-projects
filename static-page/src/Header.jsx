@@ -3,7 +3,7 @@ export default function Header() {
   return(
     
     <header className="header">
-      <img  src="./src/assets/react-logo.png" className="nav-logo" alt="React-logo"></img>
+      <img  src="../assets/react-logo.png" className="nav-logo" alt="React-logo"></img>
 
       <nav>
         <ul className="nav-list">
